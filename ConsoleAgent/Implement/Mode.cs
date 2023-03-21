@@ -73,7 +73,7 @@ namespace ConsoleAgent.Implement
                     {
                         Console.WriteLine(String.Format("    Ingrese posición {0}    ", inputs.Count + 1));
                         double inputPos;
-                        var result = double.TryParse(Console.ReadLine(), out inputPos);
+                        var result = double.TryParse(Console.ReadLine()?.Replace(".", ","), out inputPos);
                         if (result)
                             inputs.Add(inputPos);
                     }

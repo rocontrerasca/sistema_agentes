@@ -16,10 +16,10 @@ namespace ConsoleAgent.Implement
 
         public string GetStaircase(int number)
         {
-            string stair = string.Empty;
+            List<string> stair = new List<string>();
             for (int i = 0; i < number; i++)
-                stair += new String('#', i + 1).PadLeft(number, ' ') + Environment.NewLine;
-            return stair;
+                stair.Add(new string('#', i + 1).PadLeft(number, ' '));
+            return string.Join(Environment.NewLine, stair);
         }
 
         public void ShowMedia(double number)

@@ -16,16 +16,15 @@ namespace ConsoleAgent.Implement
             {
                 sum = sum + (1 / input[i]);
             }
-
             return input.Count / sum;
         }
 
         public string GetStaircase(int number)
         {
-            string stair = string.Empty;
+            List<string> stair = new List<string>();
             for (int i = 0; i < number; i++)
-                stair += new String('#', number - i).PadLeft(number, ' ') + Environment.NewLine;
-            return stair;
+                stair.Add(new string('#', number - i).PadLeft(number, ' '));
+            return string.Join(Environment.NewLine, stair);
         }
 
         public void ShowMedia(double number)

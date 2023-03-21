@@ -27,22 +27,22 @@ namespace ConsoleAgent.Implement
 
         public string GetStaircase(int number)
         {
-            string stairUp = string.Empty;
-            string stairDown = string.Empty;
+            var stairUp = new List<string>(); ;
+            var stairDown = new List<string>(); ;
             var offset = ((number - 1) * 2) / 2;
 
             for (int i = 0; i < number; i++)
-            {                
-                stairUp += new String('#', number + (2 * i)).PadLeft(number + (2 * i) + offset, ' ').PadRight(number + (2 * i) + (offset * 2), ' ') + Environment.NewLine;
+            {
+                stairUp.Add(new string('#', number + (2 * i)).PadLeft(number + (2 * i) + offset, ' ').PadRight(number + (2 * i) + (offset * 2), ' '));
                 offset -= 1;
             }
             offset = 1;
             for (int i = number - 2; i >= 0; i--)
             {
-                stairDown += new String('#', number + (2 * i)).PadLeft(number + (2 * i) + offset, ' ').PadRight(number + (2 * i) + (offset * 2), ' ') + Environment.NewLine;
+                stairDown.Add(new string('#', number + (2 * i)).PadLeft(number + (2 * i) + offset, ' ').PadRight(number + (2 * i) + (offset * 2), ' '));
                 offset += 1;
             }
-            return stairUp + stairDown;
+            return String.Format("{0}{1}{2}", string.Join(Environment.NewLine, stairUp), Environment.NewLine, string.Join(Environment.NewLine, stairDown));
         }
 
         public void ShowMedia(double number)
