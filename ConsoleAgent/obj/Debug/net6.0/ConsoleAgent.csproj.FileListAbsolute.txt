@@ -1,0 +1,15 @@
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\bin\Debug\net6.0\ConsoleAgent.exe
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\bin\Debug\net6.0\ConsoleAgent.deps.json
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\bin\Debug\net6.0\ConsoleAgent.runtimeconfig.json
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\bin\Debug\net6.0\ConsoleAgent.dll
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\bin\Debug\net6.0\ConsoleAgent.pdb
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.csproj.AssemblyReference.cache
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.AssemblyInfoInputs.cache
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.AssemblyInfo.cs
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.csproj.CoreCompileInputs.cache
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.dll
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\refint\ConsoleAgent.dll
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.pdb
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ConsoleAgent.genruntimeconfig.cache
+C:\Users\Richar\source\repos\sistema_agentes\ConsoleAgent\obj\Debug\net6.0\ref\ConsoleAgent.dll
